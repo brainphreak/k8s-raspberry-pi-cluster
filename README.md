@@ -10,7 +10,7 @@ This project documents the process of building a 6-node Kubernetes cluster using
 *   **Mixed Raspberry Pi Models:** Demonstrates compatibility across different Raspberry Pi versions (2B, 2B+, 3B, 3B+).
 *   **Centralized Power:** Utilizes a single multi-port USB hub to power all nodes, simplifying the physical setup.
 
-!(images/k8s-cluster-assembled.jpg)
+![k8s Cluster Assembled](images/k8s-cluster-assembled.jpg)
 
 
 ## Technical Specifications
@@ -24,7 +24,7 @@ This project documents the process of building a 6-node Kubernetes cluster using
 *   (6) Ethernet Cables
 *   (6) SD Cards (with Raspberry Pi OS installed)
 
-!(images/k8s-cluster-pis-before.jpg)
+![k8s Pi Cluster](images/k8s-cluster-pis-before.jpg)
 
 ### Software & Networking
 
@@ -33,7 +33,7 @@ This project documents the process of building a 6-node Kubernetes cluster using
 *   **Networking:** Static IP addresses and a custom /etc/hosts file for hostname resolution.
 
 
-!(images/k8s-cluster-powered.jpg)
+![k8s Cluster Powered](images/k8s-cluster-powered.jpg)
 
 ## Cluster Setup and Configuration
 
